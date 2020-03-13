@@ -31,7 +31,9 @@ url=jdbc:oracle:thin:SYSTEM/root@localhost:1521:xe
 #password=root
 ```
 **Sample Output**
+
 ```Connection established```
 
 **Sample Output**
+
 ```Check your connection```
