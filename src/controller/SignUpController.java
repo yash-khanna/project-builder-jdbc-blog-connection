@@ -28,15 +28,7 @@ public class SignUpController extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Sign up Controller");
-		Connection con=null;
-		con=ConnectionManager.getConnection();
-		if(con!=null) {
-			System.out.println("Database connection established");
-		}
-		else
-		{
-			System.out.println("Check your connection");
-		}
+		// Fill your code here
 		RequestDispatcher rd=this.getServletContext().getRequestDispatcher("/WEB-INF/views/signupView.jsp");
 		rd.forward(request,response);
 	}
