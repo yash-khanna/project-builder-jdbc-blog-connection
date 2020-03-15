@@ -32,7 +32,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 7. ***Add appropriate jars to your project directory.***
 8. ***To add dependencies, right click on your project - select build path - configure build path - select libraries tab - select add external jars and add the downloaded jar files.***
 
-## Required Dependencies
+## Requirements
 Download ojdbc6.jar from the given link [https://www.oracle.com/database/technologies/jdbcdriver-ucp-downloads.html]
 
 ## Progression 0:
