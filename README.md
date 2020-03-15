@@ -52,7 +52,7 @@ Download ojdbc6.jar from the given link [https://www.oracle.com/database/technol
 
 ## Progression 2:
 
-1. **Create a class called as  `Main` with main method inside the controller package.**
+1. **Go to src controller - **
 2. **Create an object for the Connection { java.sql.Connection }.**
 3. **Call the getConnection() method in the ConnectionManager and store the return value in the Connection object.**
 4. **Display "Connection established" if the connection is not equal to null else display "Check your connection".**
