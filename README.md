@@ -1,14 +1,9 @@
 ![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
 
-# ProGrad Lab | ProGrad Premier League Connection Manager
+# ProGrad Lab | Blog - Stage 1
 
 
-![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
-
-# ProGrad Lab | ProGrad Premier League
-
-
-## What should you do
+## What Should You Do
 ```
 Fork this repo
 Clone this repo
@@ -40,18 +35,16 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 ## Required Dependencies
 Download ojdbc6.jar from the given link [https://www.oracle.com/database/technologies/jdbcdriver-ucp-downloads.html]
 
-## Progression 1:
+## Progression 0:
 1. ***Right click on src folder and select new - file and name it as jdbc.properties.***
 2. ***You can use the jdbc properties given below in the NOTE section.***
 
-## Progression 2:
-
+## Progression 1:
 1. **Create a class called as `ConnectionManager` inside the utility package.**
 2. **Create a method public static Connection getConnection() which returns a connection object.** 
 3. **Use the method public static Properties loadPropertiesFile() to load the jdbc properties from the jdbc.properties file.**
 
 ## Progression 2:
-
 1. **Go to src controller - SignUpController.**
 2. **Inside the doGet method create an object for the Connection { java.sql.Connection }.**
 3. **Call the getConnection() method in the ConnectionManager and store the return value in the Connection object.**
