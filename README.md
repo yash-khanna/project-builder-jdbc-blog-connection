@@ -2,6 +2,10 @@
 
 # ProGrad Lab | Blog - Stage 1
 
+Remember your client Mr. Alex? 
+
+Well, he loves your work and is back again for your help. He's reworking on the same project with the help of databases. Can you look into his requirements & sort things out?
+
 
 ## What Should You Do
 ```
