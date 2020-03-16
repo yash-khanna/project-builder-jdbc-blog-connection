@@ -48,7 +48,7 @@ Download ojdbc6.jar from the given link [https://www.oracle.com/database/technol
 1. **Go to src controller - SignUpController.**
 2. **Inside the doGet method create an object for the Connection { java.sql.Connection }.**
 3. **Call the getConnection() method in the ConnectionManager and store the return value in the Connection object.**
-4. **Display "Connection established" if the connection is not equal to null else display "Check your connection".**
+4. **Display in the console "Connection established",if the connection is not equal to null else display "Check your connection" in the console.**
 
 ### Note:
 
